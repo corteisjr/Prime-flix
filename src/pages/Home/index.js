@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../../services/api";
 import { Link } from "react-router-dom";
+import "./home.css";
 
 function Home() {
   const [filmes, setFilmes] = useState([]);
@@ -18,9 +19,6 @@ function Home() {
     }
     loadfilmes();
   }, []);
-
-  console.log(filmes);
-
   return (
     <di className="container">
       <di className="lista-filmes">
