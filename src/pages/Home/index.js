@@ -22,6 +22,8 @@ function Home() {
     loadfilmes();
   }, []);
 
+  console.log("response", filmes);
+
   if (loading) {
     return (
       <div className="loading">
