@@ -7,6 +7,12 @@
   margin: 14px auto;
 }
 
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .lista-filmes article {
   width: 100%;
   background-color: #fff;
